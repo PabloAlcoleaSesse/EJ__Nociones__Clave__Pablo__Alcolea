@@ -19,6 +19,7 @@ add_executable(EJ__Nociones__Clave__Pablo__Alcolea__2
         "Proyecto 2/nuevo.cpp"
         "Proyecto 2/matematicas.cpp"
         "Proyecto 2/funciones.cpp")
+
 include(FetchContent)
 FetchContent_Declare(
         fmt
