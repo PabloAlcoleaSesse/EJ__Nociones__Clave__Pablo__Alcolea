@@ -7,18 +7,18 @@ include_directories(.)
 
 
 add_executable(EJ__Nociones__Clave__Pablo__Alcolea
-    "Proyecto 1/Estudiante.cpp"
-    "Proyecto 1/Estudiante.h"
-    "Proyecto 1/Main.cpp"
-    "Proyecto 1/Main.h"
-    "Proyecto 1/Persona.cpp"
-    "Proyecto 1/Persona.h")
+    "Proyecto_1/Estudiante.cpp"
+    "Proyecto_1/Estudiante.h"
+    "Proyecto_1/Main.cpp"
+    "Proyecto_1/Main.h"
+    "Proyecto_1/Persona.cpp"
+    "Proyecto_1/Persona.h")
 
 add_executable(EJ__Nociones__Clave__Pablo__Alcolea__2
-        "Proyecto 2/main2.cpp"
-        "Proyecto 2/nuevo.cpp"
-        "Proyecto 2/matematicas.cpp"
-        "Proyecto 2/funciones.cpp")
+        "Proyecto_2/main2.cpp"
+        "Proyecto_2/nuevo.cpp"
+        "Proyecto_2/matematicas.cpp"
+        "Proyecto_2/funciones.cpp")
 
 include(FetchContent)
 FetchContent_Declare(
@@ -30,5 +30,5 @@ FetchContent_Declare(
 FetchContent_MakeAvailable(fmt)
 target_link_libraries(EJ__Nociones__Clave__Pablo__Alcolea__2 PRIVATE fmt::fmt)
 
-add_library(matematicas STATIC "Proyecto 2/matematicas.cpp")
+add_library(matematicas STATIC "Proyecto_2/matematicas.cpp")
 target_link_libraries(EJ__Nociones__Clave__Pablo__Alcolea__2 PRIVATE matematicas)
