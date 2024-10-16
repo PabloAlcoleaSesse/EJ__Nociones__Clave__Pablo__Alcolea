@@ -10,8 +10,7 @@ add_executable(EJ__Nociones__Clave__Pablo__Alcolea
     "Proyecto_1/Estudiante.cpp"
     "Proyecto_1/Estudiante.h"
     "Proyecto_1/Main.cpp"
-    "Proyecto_1/Main.h"
-    "Proyecto_1/Persona.cpp"
+        "Proyecto_1/Persona.cpp"
     "Proyecto_1/Persona.h")
 
 add_executable(EJ__Nociones__Clave__Pablo__Alcolea__2
