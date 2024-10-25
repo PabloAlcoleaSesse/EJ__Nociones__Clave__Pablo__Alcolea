@@ -230,3 +230,6 @@ Enlazador
 Biblioteca estándar de C++: Tu programa ya está utilizando la biblioteca estándar de C++ si estás utilizando std::cout, std::cin, std::endl, etc. El enlazador puede encontrar estas funciones porque las bibliotecas estándar de C++ se instalan con el compilador.
 Biblioteca externa: Supongamos que quieres usar la biblioteca fmt en tu proyecto. Agregarías las líneas correspondientes a tu archivo CMakeLists.txt, como se describió en el ejercicio 3b. El enlazador puede encontrar la biblioteca fmt porque has configurado tu proyecto para descargarla y compilarla.
 Orden de enlace: En tu archivo CMakeLists.txt, la línea target_link_libraries determina el orden en que las bibliotecas se enlazan a tu programa. Si tienes problemas de enlace, puedes intentar cambiar el orden de las bibliotecas.
+
+## Comparador de gcc con MVSC:
+La diferencia principal que he encontrado al ejecutar el codigo con ambos compiladores es que el compilador de MSVC lo compila mas rapido que el gcc.
